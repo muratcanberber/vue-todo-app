@@ -1,5 +1,5 @@
 <script setup></script>
 
-<template>test 1</template>
+<template>test 2</template>
 
 <style scoped></style>
