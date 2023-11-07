@@ -5,10 +5,10 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 <template>
   <nav class="navbar has-background-dark has-text-white">
-    <div class="navbar-brand has-background-success px-6">
-      <a class="navbar-item has-text-white is-size-4" href="/"> TODO </a>
+    <div class="navbar-brand">
+      <img src="../public/logo.png" class="image" />
     </div>
-    <RouterLink to="/" class="navbar-item navbar-end" id="menuItem"
+    <RouterLink to="/" class="navbar-item navbar-center px-8" id="menuItem"
       >Home</RouterLink
     >
     <RouterLink to="/about" class="navbar-item" id="menuItem">About</RouterLink>
