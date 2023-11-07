@@ -28,10 +28,15 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 #menuItem {
   color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 #menuItem:hover {
   color: black;
   animation-name: example;
   animation-duration: 0.5s;
+}
+.navbar-brand img {
+  max-height: 5rem;
 }
 </style>
